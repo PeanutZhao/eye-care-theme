@@ -1,0 +1,21 @@
+{
+  "name": "eye-care-theme",
+  "displayName": "eye care theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eye Care",
+        "uiTheme": "vs",
+        "path": "./themes/eye_care.json"
+      }
+    ]
+  }
+}
