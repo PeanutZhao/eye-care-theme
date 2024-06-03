@@ -2,48 +2,43 @@
 	"name": "Eyecare",
 	//启动行号颜色...配置文件C:\Users\lwlee\AppData\Roaming\Code\User\settings.json  
 	//                    --->>>    "editor.renderLineHighlight": "all"
-
 	//窗体色彩配置
 	//   窗体颜色     8dc5ab(菜单)     009e0d(强烈分割线)     dddddd(窗体)      
 	//   编辑区色     d0d4d0(背景)     96e285(匹配词)         d8d8d8(高亮行)  999999(行号)
 	//   强烈颜色     e254c3(提醒)     fff453(括号)           ee0000(错误)
 	// 
-	"colors":{ 
+	"colors": {
 		//1 悬浮控件背景=============================================
-		"menu.background":"#ceefd5",      //悬浮菜单背景色   ------菜单栏
-		"menu.foreground":"#038028",      //悬浮菜单前景色 
+		"menu.background": "#ceefd5", //悬浮菜单背景色   ------菜单栏
+		"menu.foreground": "#038028", //悬浮菜单前景色 
 		"menu.selectionBackground": "#d1eafa",
 		"menu.selectionForeground": "#0099ad",
 		"menu.selectionBorder": "#d1eafa",
 		"menubar.selectionBackground": "#d1eafa",
 		"menubar.selectionForeground": "#0099ad",
 		"menubar.selectionBorder": "#d1eafa",
-		
 		"list.highlightForeground": "#e254c3", // 匹配字体颜色   ---编辑区，输入提示
-	    //配置弹出的下拉菜单 和 左侧资源管理器栏里菜单
-		"list.activeSelectionBackground":"#c3c58d",  // 左侧 资源管理器栏里
-	    "list.activeSelectionForeground": "#016d23",
+		//配置弹出的下拉菜单 和 左侧资源管理器栏里菜单
+		"list.activeSelectionBackground": "#c3c58d", // 左侧 资源管理器栏里
+		"list.activeSelectionForeground": "#016d23",
 		"list.inactiveSelectionBackground": "#8dc5ab69", //未激活菜单背景
 		"list.inactiveSelectionForeground": "#000000",
-		"list.errorForeground": "#fa6aab",  // 出现错误	 
-		
-		"list.hoverBackground": "#8dc5ab42",  //鼠标移动背景色   ----面包屑栏下拉菜单
+		"list.errorForeground": "#fa6aab", // 出现错误	 
+		"list.hoverBackground": "#8dc5ab42", //鼠标移动背景色   ----面包屑栏下拉菜单
 		"list.hoverForeground": "#005661",
-		"list.focusBackground": "#8dc5ab69",    //聚焦背景色
-		"list.focusForeground": "#005661",		
+		"list.focusBackground": "#8dc5ab69", //聚焦背景色
+		"list.focusForeground": "#005661",
 		"list.dropBackground": "#b2cacd",
 		"list.inactiveFocusBackground": "#c9eaed",
-
 		"list.warningForeground": "#e07a52",
 		"listFilterWidget.background": "#d5eef1",
 		"listFilterWidget.outline": "#14b832",
 		"listFilterWidget.noMatchesOutline": "#ff4000",
-		
-		"focusBorder": "#d8fae4b9", // 窗口聚焦时边框
+		"focusBorder": "#009e0d", // 窗口聚焦时边框
 		"foreground": "#005661",
-		"input.border": "#009e0d",  //输入窗口边框
-		"input.background": "#d8fae4b9",//输入窗口背景
-		"input.foreground": "#6a7a7c",
+		"input.border": "#d8fae4b9", //输入窗口边框
+		"input.background": "#d8fae4b9", //输入窗口背景
+		"input.foreground": "#445b5e",
 		"input.placeholderForeground": "#9fabad",
 		"inputOption.activeBorder": "#0099ad",
 		"inputValidation.errorBackground": "#ff400041",
@@ -52,145 +47,129 @@
 		"inputValidation.infoBorder": "#00c6e0",
 		"inputValidation.warningBackground": "#ffa587cc",
 		"inputValidation.warningBorder": "#ffa487",
-		
 		//2 全局边框 =============================================== 
-		"window.activeBorder": "#009e0d",  //全局边框-------------
-
+		"window.activeBorder": "#45874b", //全局边框-------------
 		//3 菜单栏 标签栏 面包屑栏 ======================================
-		"titleBar.activeForeground": "#065e02",
-		"titleBar.activeBackground": "#85dcb3",   //最顶菜单背景
+		"titleBar.activeForeground": "#075403",
+		"titleBar.activeBackground": "#6bb794", //最顶菜单背景
 		"titleBar.inactiveBackground": "#8dc5ab",
-		"titleBar.inactiveForeground": "#71838e",
-	    
-		    
+		"titleBar.inactiveForeground": "#425059",
 		"tab.hoverBorder": "#009e0d",
-		"tab.hoverBackground": "#06975484",    // 标签鼠标悬停时颜色
+		"tab.hoverBackground": "#06975484", // 标签鼠标悬停时颜色
 		"tab.hoverForeground": "#028246",
-		"tab.inactiveBackground":"#bcf1dc",  // 非活动的标签颜色
+		"tab.inactiveBackground": "#bcf1dc", // 非活动的标签颜色
 		"tab.inactiveForeground": "#028246",
-	    "tab.activeBackground":"#c7edcc",     //活动标签背景色
-		"tab.activeForeground": "#028246",    //激活的 字体 前景色
-		"tab.border": "#75d7aa",   // 标签两边竖线---------
-		"breadcrumb.foreground":"#036f1c",       //面包屑栏
-		"breadcrumbPicker.background":"#c7edcc",  //下拉背景色
+		"tab.activeBackground": "#c7edcc", //活动标签背景色
+		"tab.activeForeground": "#028246", //激活的 字体 前景色
+		"tab.border": "#75d7aa", // 标签两边竖线---------
+		"breadcrumb.foreground": "#036f1c", //面包屑栏
+		"breadcrumbPicker.background": "#c7edcc", //下拉背景色
 		"breadcrumb.background": "#f4f6f6",
 		"breadcrumb.focusForeground": "#0099ad",
 		"breadcrumb.activeSelectionForeground": "#005661",
-
-		"scrollbar.shadow": "#8dc5ab",                     // 上面分割线的阴影
-		"editorGroupHeader.tabsBackground": "#bcf1dc",  // 非活动右侧便签颜色
-		"editorGroupHeader.border": "#009e0d",             //标签栏和编辑区分割线  分割线-------
-		"editorGroup.dropBackground": "#8dc5ab41",  //拖动界面  分屏颜色多屏
+		"scrollbar.shadow": "#8dc5ab", // 上面分割线的阴影
+		"editorGroupHeader.tabsBackground": "#bcf1dc", // 非活动右侧便签颜色
+		"editorGroupHeader.border": "#009e0d", //标签栏和编辑区分割线  分割线-------
+		"editorGroup.dropBackground": "#8dc5ab41", //拖动界面  分屏颜色多屏
 		"editorGroup.emptyBackground": "#93b4b833",
 		"editorGroup.border": "#06975484",
 		"editorGroupHeader.noTabsBackground": "#caedf2",
 		"editorGroupHeader.tabsBorder": "#caedf200",
-	   
 		//4 编辑区=================================================
-		"editor.foreground":"#016706",   //前景色
-		"editor.background":"#c7edcc",   //背景色
-		"editor.lineHighlightBackground": "#6bca8e80",         //高亮行
-		"editor.lineHighlightBorder": "#6bca8e80",              //高亮行边框
-		"editor.selectionBackground": "#81dc94",              //选中词颜色
-		"editor.selectionHighlightBackground": "#63fbeab6",     //相同匹配词的颜色
-		"editor.inactiveSelectionBackground":"#63fbeab6",       //窗口失去焦点，选中的颜色
-		"editorCursor.foreground": "#057734",      //光标颜色
+		"editor.foreground": "#014905", //前景色
+		"editor.background": "#c7edcc", //背景色
+		"editor.lineHighlightBackground": "#6bca8e80", //高亮行
+		"editor.lineHighlightBorder": "#6bca8e80", //高亮行边框
+		"editor.selectionBackground": "#81dc94", //选中词颜色
+		"editor.selectionHighlightBackground": "#63fbeab6", //相同匹配词的颜色
+		"editor.inactiveSelectionBackground": "#63fbeab6", //窗口失去焦点，选中的颜色
+		"editorCursor.foreground": "#057734", //光标颜色
 		"editor.selectionHighlightBorder": "#14a5ff00",
 		"editor.wordHighlightStrongBackground": "#b5890027",
 		"editor.wordHighlightStrongBorder": "#b5890000",
 		"editor.wordHighlightBackground": "#e9a14922",
 		"editor.wordHighlightBorder": "#e9a14900",
-		"editor.findMatchBackground": "#61d68ce7",   //当前选中的搜索词的颜色
+		"editor.findMatchBackground": "#61d68ce7", //当前选中的搜索词的颜色
 		"editor.findMatchBorder": "#8ce99a00",
-		"editor.findMatchHighlightBackground": "#82e1a5c6",  //相同匹配词的颜色
+		"editor.findMatchHighlightBackground": "#82e1a5c6", //相同匹配词的颜色
 		"editor.findMatchHighlightBorder": "#148f9f00",
 		"editor.findRangeHighlightBackground": "#99e62a55",
 		"editor.findRangeHighlightBorder": "#58CC6D00",
 		"editor.hoverHighlightBackground": "#0099ad3f",
-		"editor.rangeHighlightBackground": "#f1e9d5a1",
+		"editor.rangeHighlightBackground": "#f0e0b7a1",
 		"editorLink.activeForeground": "#14a5ff",
 		"editorWhitespace.foreground": "#c1d4d7bb",
 		"editorRuler.foreground": "#d0edf1",
 		"editorCodeLens.foreground": "#77aaca",
-		"editorBracketMatch.background":"#fff453",     //括号背景
+		"editorBracketMatch.background": "#fff453", //括号背景
 		"editorBracketMatch.border": "#0099ad",
-
 		//行号所在区域
-		"editorLineNumber.foreground": "#999999b4",   //行号颜色
-		"editorLineNumber.activeForeground": "#000000", //活动行号突出显示
-		"editorGutter.background": "#c7edcc",         //行号背景
-		"editorGutter.modifiedBackground": "#8dc5ab",  //行号右边的 内容标记
+		"editorLineNumber.foreground": "#66b590", //行号颜色
+		"editorLineNumber.activeForeground": "#024b14", //活动行号突出显示
+		"editorGutter.background": "#c7edcc", //行号背景
+		"editorGutter.modifiedBackground": "#8dc5ab", //行号右边的 内容标记
 		"editorGutter.addedBackground": "#8ce99a",
 		"editorGutter.deletedBackground": "#ff4000",
-		"editorIndentGuide.background1":"#99999960",        //缩进线颜色非激活------
-		"editorIndentGuide.activeBackground1":"#999999",  //当前激活的缩进线------
-		"debugIcon.breakpointForeground":"#e254c3",  //断点标记
-		"editorGutter.foldingControlForeground": "#e254c3", // 折叠标记
-		"editor.foldBackground": "#e254c333",     //折叠后的背景
-
-		"diffEditor.border": "#009e0d",   // 多个编辑器的分割线 ----------
-
-        //5 最左侧栏   活动栏   侧边栏 资源管理器栏================================
-		"activityBar.background": "#d4f2e9a3",   //最左活动栏
-		"activityBar.foreground": "#009e0d",   //最左活动栏图标颜色
-		"activityBarBadge.background":"#02730c",  //最左活动栏 通知标记 颜色
+		"editorIndentGuide.background1": "#20916460", //缩进线颜色非激活------
+		"editorIndentGuide.activeBackground1": "#209164", //当前激活的缩进线------
+		"debugIcon.breakpointForeground": "#9da412", //断点标记
+		"editorGutter.foldingControlForeground": "#9da412", // 折叠标记
+		"editor.foldBackground": "#9da41260", //折叠后的背景
+		"diffEditor.border": "#1ac428", // 多个编辑器的分割线 ----------
+		//5 最左侧栏   活动栏   侧边栏 资源管理器栏================================
+		"activityBar.background": "#d4f2e9a3", //最左活动栏
+		"activityBar.foreground": "#009e0d", //最左活动栏图标颜色
+		"activityBarBadge.background": "#02730c", //最左活动栏 通知标记 颜色
 		"activityBarBadge.foreground": "#ffffff",
-		"activityBar.border": "#999999f4",    //边框 分割线--------------
-
-		"sideBar.background": "#c8e7d2",       //最左侧边栏 展开
-		"sideBar.foreground": "#038c38",       // 侧边栏  字体颜色
-		"sideBar.border": "#99999960",           //侧边栏 边框分割线---------------
+		"activityBar.border": "#009e0d70", //边框 分割线--------------
+		"sideBar.background": "#c8e7d2", //最左侧边栏 展开
+		"sideBar.foreground": "#038c38", // 侧边栏  字体颜色
+		"sideBar.border": "#009e0d60", //侧边栏 边框分割线---------------
 		"sideBar.dropBackground": "#a2ebac76",
-		"sideBarTitle.foreground": "#014e07",  //侧边栏 标题颜色
-		"badge.background": "#bf89fc",  //标记未保存文件
-		"badge.foreground":"#ffffff", 
-		"sideBarSectionHeader.background": "#6dad9d",
-		"sideBarSectionHeader.foreground": "#058659",
-	
+		"sideBarTitle.foreground": "#025809", //侧边栏 标题颜色
+		"badge.background": "#deed0c", //标记未保存文件
+		"badge.foreground": "#038c38",
+		"sideBarSectionHeader.background": "#6dad9d90",
+		"sideBarSectionHeader.foreground": "#025809",
 		//6 右面缩略图===============================================
-		"minimap.background": "#C7EDCC",   //缩略图背景
-		"minimapSlider.activeBackground": "#32c4808e",   //点击激活滑块颜色
-		"minimapSlider.hoverBackground": "#8dc5ab83",
-		"minimapSlider.background": "#45c58983",
-		"minimap.selectionHighlight": "#ff0000",     //当前行标记 
-
-		"minimap.findMatchHighlight": "#0099adaa",
-		"minimap.errorHighlight": "#ff4000ee",
+		"minimap.background": "#C7EDCC", //缩略图背景
+		"minimapSlider.activeBackground": "#159f5f8e", //点击激活滑块颜色
+		"minimapSlider.hoverBackground": "#27b37283",
+		"minimapSlider.background": "#58d89c83",
+		"minimap.selectionHighlight": "#ff0000", //当前行标记 
+		"minimap.findMatchHighlight": "#22bfa0aa",
+		"minimap.errorHighlight": "#d23805ee",
 		"minimap.warningHighlight": "#e69533ee",
 		"minimapGutter.addedBackground": "#009456",
 		"minimapGutter.modifiedBackground": "#14b832",
 		"minimapGutter.deletedBackground": "#ff4000",
- 
 		//7 最右面滑动块==============================================
-		"scrollbarSlider.background": "#8dc5ab00",      //滑块颜色
-		"scrollbarSlider.hoverBackground": "#8dc5abdc",  
-		"scrollbarSlider.activeBackground": "#8dc5abdc",  //点击滑块激活颜色
+		"scrollbarSlider.background": "#3ea47450", //滑块颜色
+		"scrollbarSlider.hoverBackground": "#41b07c80",
+		"scrollbarSlider.activeBackground": "#26976280", //点击滑块激活颜色
 		//8 最右滑动块底下的区域
-		"editorOverviewRuler.selectionHighlightForeground": "#ff0000",   //选中词
-		"editorOverviewRuler.findMatchForeground": "#ff0000",            //搜索词
+		"editorOverviewRuler.selectionHighlightForeground": "#ff0000", //选中词
+		"editorOverviewRuler.findMatchForeground": "#ff0000", //搜索词
 		"editorOverviewRuler.currentContentForeground": "#ff0000",
 		"editorOverviewRuler.incomingContentForeground": "#9d92f255",
 		"editorOverviewRuler.commonContentForeground": "#ffc18055",
 		"editorOverviewRuler.border": "#f4f6f6",
-		
-         
 		//9 最底部栏   状态栏=======================================
-		"statusBar.noFolderBackground" : "#8dc5ab",   //单文件状态栏
-		"statusBar.background": "#8dc5ab",   //最底状态栏颜色
-		"statusBar.foreground": "#095f11",   //最底状态栏前景颜色
-		"statusBar.border": "#8dc5ab",  //底部状态栏分割线--------
-		"panel.background": "#c8e7d2",    //最底部控制台
-		"panel.border": "#009e0d",   //控制台边框
-		"panelTitle.activeBorder": "#e254c3", //标题下划线颜色
-		"panelTitle.activeForeground": "#0099ad",
-		"panelTitle.inactiveForeground": "#71838e",
-		
-		"button.background": "#099",
-		"button.foreground": "#f1f1f1",
-		"button.hoverBackground": "#0cc",
-		"dropdown.background": "#f4f6f6",
-		"dropdown.border": "#f4f6f6",
-		"dropdown.foreground": "#005661",
+		"statusBar.noFolderBackground": "#8dc5ab", //单文件状态栏
+		"statusBar.background": "#bdefd8", //最底状态栏颜色
+		"statusBar.foreground": "#095f11", //最底状态栏前景颜色
+		"statusBar.border": "#bdefd8", //底部状态栏分割线--------
+		"panel.background": "#c8e7d2", //最底部控制台
+		"panel.border": "#35c841", //控制台边框
+		"panelTitle.activeBorder": "#028117", //标题下划线颜色
+		"panelTitle.activeForeground": "#095f11",
+		"panelTitle.inactiveForeground": "#6eb5be",
+		"button.background": "#2f9e41", //按钮
+		"button.foreground": "#dff5e3",
+		"button.hoverBackground": "#57ae65",
+		"dropdown.background": "#e0f9e8",
+		"dropdown.border": "#e0f9e8",
+		"dropdown.foreground": "#04480b",
 		"editorMarkerNavigation.background": "#3a3a5e29",
 		"editorMarkerNavigationError.background": "#ff4000",
 		"editorMarkerNavigationWarning.background": "#e69533",
@@ -202,7 +181,6 @@
 		"editorInfo.foreground": "#00c6e0",
 		"editorHint.border": "#58cc6d00",
 		"editorHint.foreground": "#58cc6d",
-
 		"textBlockQuote.background": "#e7f2f3",
 		"textBlockQuote.border": "#00899e",
 		"textCodeBlock.background": "#e7f2f3",
@@ -211,18 +189,16 @@
 		"textPreformat.foreground": "#e9a149",
 		"textSeparator.foreground": "#e7f2f3",
 		"walkThrough.embeddedEditorBackground": "#e7f2f3",
-		
-		"editorWidget.background": "#e0eff1",
+		"editorWidget.background": "#b6ecd2",
 		"editorWidget.border": "#ece2c600",
-		"editorHoverWidget.background": "#dddddd",  //悬浮控件背景  ----编辑区
+		"editorHoverWidget.background": "#b6ecbb", //悬浮控件背景  ----编辑区
 		"editorHoverWidget.foreground": "#038a30",
-		"editorHoverWidget.border": "#009e0d",     //悬浮控件边框
-		"editorSuggestWidget.background": "#dddddd",
-		"editorSuggestWidget.border": "#009e0d",   //悬浮建议边框
-		"editorSuggestWidget.foreground": "#6a7a7c",
+		"editorHoverWidget.border": "#009e0d", //悬浮控件边框
+		"editorSuggestWidget.background": "#b6ecbb",
+		"editorSuggestWidget.border": "#009e0d", //悬浮建议边框
+		"editorSuggestWidget.foreground": "#118c61",
 		"editorSuggestWidget.highlightForeground": "#0099ad",
-		"editorSuggestWidget.selectedBackground": "#bbe0f7",
-
+		"editorSuggestWidget.selectedBackground": "#52a17370",
 		"terminal.ansiBlack": "#003b42",
 		"terminal.ansiRed": "#e34e1c",
 		"terminal.ansiGreen": "#00b368",
@@ -239,8 +215,8 @@
 		"terminal.ansiBrightMagenta": "#ff6b9f",
 		"terminal.ansiBrightCyan": "#00cbe6",
 		"terminal.ansiBrightWhite": "#bbc3c4",
-		"terminal.background": "#e1eeef",
-		"terminal.foreground": "#005661",
+		"terminal.background": "#c8e7d2",
+		"terminal.foreground": "#035022",
 		"terminalCursor.background": "#e1eeef",
 		"terminalCursor.foreground": "#005661",
 		"merge.border": "#f4f6f600",
@@ -250,13 +226,13 @@
 		"merge.incomingHeaderBackground": "#9d92f255",
 		"merge.commonContentBackground": "#ffc18033",
 		"merge.commonHeaderBackground": "#ffc18055",
-		"notificationCenter.border": "#e0eff1",
-		"notificationCenterHeader.foreground": "#005661",
-		"notificationCenterHeader.background": "#e0eff1",
+		"notificationCenter.border": "#bfe9cd",
+		"notificationCenterHeader.foreground": "#006117",
+		"notificationCenterHeader.background": "#bfe9cd",
 		"notificationToast.border": "#e0eff1",
-		"notifications.foreground": "#005661",
-		"notifications.background": "#e0eff1",
-		"notifications.border": "#e0eff1",
+		"notifications.foreground": "#006117",
+		"notifications.background": "#bfe9cd",
+		"notifications.border": "#74c38f",
 		"notificationLink.foreground": "#005661",
 		"diffEditor.insertedTextBackground": "#14b83230",
 		"diffEditor.removedTextBackground": "#BB1F0522",
@@ -289,14 +265,13 @@
 		"gitDecoration.conflictingResourceForeground": "#e9a149",
 		"pickerGroup.border": "#00c6e0",
 		"pickerGroup.foreground": "#0099ad",
-		
-		"tree.indentGuidesStroke": "#d3cec5",
+		"tree.indentGuidesStroke": "#f4d7a1",
 		"settings.headerForeground": "#004d57",
 		"settings.modifiedItemIndicator": "#00bd23",
 		"settings.dropdownListBorder": "#ade2eb88",
 		"settings.dropdownBackground": "#e0eff1",
 		"settings.dropdownForeground": "#0bb",
-		"settings.dropdownBorder": "#e0eff1",
+		"settings.dropdownBorder": "#e0esff1",
 		"settings.checkboxBackground": "#e0eff1",
 		"settings.checkboxForeground": "#0bb",
 		"settings.checkboxBorder": "#e0eff1",
@@ -306,449 +281,845 @@
 		"settings.numberInputBackground": "#d0edf1",
 		"settings.numberInputForeground": "#5842ff",
 		"settings.numberInputBorder": "#d0edf1",
-		
 		"editor.snippetTabstopHighlightBackground": "#abe4ed77",
 		"editor.snippetTabstopHighlightBorder": "#d6f1f5",
 		"editor.snippetFinalTabstopHighlightBackground": "#abe4ed77",
 		"editor.snippetFinalTabstopHighlightBorder": "#d6f1f5",
 	},
-	"semanticHighlighting":true,  
+	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"newOperator": "#0000ff",
 		"stringLiteral": "#a31515",
-		"customLiteral": "#000000", 
+		"customLiteral": "#000000",
 		"numberLiteral": "#098658",
 	},
-	
-
-    //下面都是语法色彩配置
+	//下面都是语法色彩配置
 	//一个最小化的主题只会定义 11 个根组中的 10 个样式（其中 meta 是不会有视觉样式的)
-	
 	"tokenColors": [
-
-		//1、关键字（当它无法被归并到别的组时使用）。
 		{
+			"name": "COMMENT",
 			"scope": [
-				"keyword.control",     //通常是流程控制关键字，如 continue、while、return 等。
-				"keyword.control.conditional",
-				"keyword.control.import",
-
-				"punctuation.definition.keyword",   // 带符号的关键字, such as the @ symbol in CSS, add the following scope to the symbols:
- 
-				//运算符通常都是符号，根据运算符的类型引用特定的变体
-				"keyword.operator",    // 文本（如 or）或者字符类型的操作符。
-				"keyword.operator.assignment",
-				"keyword.operator.arithmetic",
-				"keyword.operator.bitwise",
-				"keyword.operator.logical",      
-				"keyword.operator.word",        //操作者是一个字(and or not)
-				
-				"keyword.other",     //其它关键字
-			 ],		  
-			"settings": {
-				"foreground": "#0000ff",  //关键字
-				"fontStyle": "",
-			}
-		},
-		
-		//2、 storage：与存储相关的内容。
-		{
-			"scope": [
-				"storage.type",              //类型，如 class、function、int、var 等。
-				"storage.modifier",          //存储相关的修饰符，static, inline, const, public and private.
-				"storage.type.function",     // func, function and def
-				
-				//Keywords for  classes, structs, interfaces
-				"storage.type.class",
-				"storage.type.struct", 
-				"storage.type.enum", 
-				"storage.type.union",
-				"storage.type.trait", 
-				"storage.type.interface",
-				"storage.type.impl ",
-				"storage.type keyword.declaration.type",
+				"comment",
+				"punctuation.definition.comment",
+				"punctuation.definition.tag",
+				"comment.block.documentation punctuation.definition.bracket",
+				"source.ocaml comment constant.regexp meta.separator",
+				"markup.other.anchor support.constant",
+				"markup.fenced_code",
+				"markup.fenced_code punctuation.definition",
+				"punctuation.definition.heading",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown",
+				"punctuation.definition.strikethrough.markdown"
 			],
 			"settings": {
-				"foreground": "#00a2ff",    //存储 类型的关键字
-				"fontStyle": "",
+				"foreground": "#839a8e"
 			}
 		},
-
-		//3、support：框架或者库提供的内容。 比如内置函数
 		{
+			"name": "TEXT",
 			"scope": [
-				"support.function",   //框架或者库提供的函数，如 Objective-C 中的 NSLog 就应该是
-				"support.constant",  //框架或者库提供的常量。
-				"support.module",	
-
-				"support.class",     // 框架或者库提供的类。
-				"support.type",      //框架或者库提供的类型，有可能只在 C 系语言中使用，如 typedef 等。大多数其它语言都会被认为是类。
+				"constant.character",
+				"constant.escape",
+				"text.html.markdown",
+				"punctuation.definition.list_item",
+				"keyword.begin.tag.ejs",
+				"constant.name.attribute.tag.pug",
+				"source.clojure meta.symbol",
+				"constant.other.description.jsdoc",
+				"keyword.other.array.phpdoc.php",
+				"keyword.operator.other.powershell",
+				"meta.link.inline punctuation.definition.string",
+				"source.sql",
+				"source meta.brace",
+				"source punctuation",
+				"text.html punctuation",
+				"markup meta punctuation.definition",
+				"meta.bracket.julia",
+				"meta.array.julia",
+				"entity.name.footnote",
+				"source.ocaml punctuation.definition.tag",
+				"source.ocaml entity.name.filename",
+				"source.reason entity.name.filename",
+				"entity.other.attribute-name strong",
+				"binding.fsharp keyword.symbol.fsharp",
+				"entity.name.record.field.elm",
+				"entity.name.record.field.accessor.elm",
+				"storage.modifier.array.bracket",
+				"source.css entity.other",
+				"meta.attribute-selector punctuation.definition.entity",
+				"markup.other.anchor string",
+				"punctuation.separator",
+				"punctuation.section",
+				"punctuation.terminator"
 			],
 			"settings": {
-				"foreground": "#3f6be4",     // 框架提供的 内置函数
-				"fontStyle": "bold",
+				"foreground": "#004d57"
 			}
 		},
-		
-		// 4 、entity     实体，指文档中比较大坨的部分，如章节、类、函数或者标记。
-		//               我们并不讲所有的实体都归于 entity.*，有些会归于 meta.*。
 		{
+			"name": "KEYWORD",
 			"scope": [
-				//"entity.name",  //用于命名一个大实体。
-				"entity.name.class",
-				"entity.name.struct",
-				"entity.name.enum",
-				"entity.name.union",
-				"entity.name.trait",
-				"entity.name.interface",
-				"entity.name.impl",
-				"entity.name.type",				        //类型定义或者类。
-				
-				"entity.name.class.ford-decl",		     //在C和c++中使用	
-                "entity.other.inherited-class",       //超类/基类名称
-
-			//	"entity.name.function",			    	//函数实体
-				"entity.name.function.constructor",
-                "entity.name.function.destructor",
-			
-				"entity.name.namespace", 				 //命名空间，包和模块
-				"entity.name.constant",       		     //常数
-				"entity.name.label",					 //类似goto的构造的标签
-				
-		    
-				"entity.name.tag",					    // HTML and XML tags标记。
-				"entity.name.section",				    // 章节。 标记语言(如markdown)的标题名称
-			    "entity.other.attribute-name",          //  HTML, CSS and XML 
-	
-			  ],
+				"keyword",
+				"keyword.control",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"storage.modifier",
+				"meta.tag.sgml",
+				"punctuation.accessor",
+				"constant.other.color",
+				"entity.name.section",
+				"markup.heading",
+				"markup.heading punctuation.definition",
+				"entity.other.attribute-name.pseudo-class",
+				"entity.other.attribute-name.pseudo-element",
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js",
+				"storage.type.function.pug",
+				"text.pug storage.type",
+				"text.pug meta.tag.other",
+				"source.clojure storage.control",
+				"meta.expression.clojure",
+				"punctuation.separator.slice.python",
+				"punctuation.separator.question-mark.cs",
+				"punctuation.definition.parameters.varargs",
+				"source.go keyword.operator",
+				"punctuation.separator.pointer-access",
+				"punctuation.separator.other.ruby",
+				"keyword.package",
+				"keyword.import",
+				"punctuation.definition.keyword",
+				"punctuation.separator.hash.cs",
+				"entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
+				"entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
+				"source.kotlin storage.type.import",
+				"source.kotlin storage.type.package",
+				"constant.string.documentation.powershell",
+				"punctuation.section.directive",
+				"storage.type.rust",
+				"punctuation.definition.attribute",
+				"punctuation.definition.preprocessor",
+				"punctuation.separator.namespace",
+				"punctuation.separator.method",
+				"keyword.control punctuation.definition.function",
+				"source.ocaml variable.interpolation string",
+				"source.reason variable.interpolation",
+				"punctuation.definition.directive",
+				"storage.type.modifier",
+				"keyword.other.class.fileds",
+				"source.toml entity.other.attribute-name",
+				"source.css entity.name.tag.custom",
+				"sharing.modifier",
+				"keyword.control.class.ruby",
+				"keyword.control.def.ruby"
+			],
 			"settings": {
-				"foreground": "#a0008b",    //只关于名字的 配色  
-				"fontStyle": "",
+				"foreground": "#d85fa6"
 			}
 		},
-		
-		//5、meta元作用域用于范围更大的代码或标记部分，通常包含多个更具体的范围数据结构的完整内容
-		//   These are not intended to be styled by a color scheme, but used by preferences and plugins.
-		//如声明函数的整行将是 meta.function，子集将是 storage.type、entity.name.function、variable.parameter 等，并且只有后者才会被样式化。
 		{
+			"name": "VARIABLE",
 			"scope": [
-				"meta.class",
-				"meta.struct",
-				"meta.enum",
-				"meta.union",
-				"meta.trait",
-				"meta.interface",
-				"meta.impl",
-				"meta.type",
-
-				"meta.function", // 函数定义与声明的参数以及括号；宏定义代码段的参数及括号 
-				"meta.function.parameters",
-				"meta.function.return-type",
-
-				"meta.namespace",
-				"meta.preprocessor",  // 预处理“#if”等的括号；宏定义的参数括号及代码段 
-		
-				"meta.annotation",
-				"meta.annotation.identifier",
-				"meta.annotation.parameters",
+				"variable",
+				"variable.object",
+				"variable.other",
+				"variable.parameter",
+				"support",
+				"entity.name.module",
+				"variable.import.parameter",
+				"variable.other.class",
+				"meta.toc-list.id.html",
+				"source.json meta.structure.dictionary.json support.type.property-name.json",
+				"meta.var.clojure",
+				"entity.name.variable",
+				"source.java meta.class.body.java",
+				"entity.name.package.go",
+				"source.c",
+				"source.cpp",
+				"source.go",
+				"source.python",
+				"meta.function-call.arguments.python",
+				"source.ruby",
+				"source.coffee.embedded.source",
+				"source.coffee",
+				"storage.modifier.import",
+				"storage.modifier.package",
+				"storage.type.annotation",
 				"punctuation.definition.annotation",
-
-				"meta.path",  
-				
-				"meta.function-call",    //函数名称(包括完整路径)和所有参数
-
-				"meta.block",            //用{}描述的代码段使用以下范围，在{}内的字符使用另外的punctuation范围
-				"punctuation.section.block.begin",
-				"punctuation.section.block.end",
-				"meta.braces",
-				"punctuation.section.braces.begin",  // { and } 
-				"punctuation.section.braces.end",
-
-				"meta.group",
-				"punctuation.section.group.begin",  //()
-				"punctuation.section.group.end",
-				"meta.parens",
-				"punctuation.section.parens.begin",
-				"punctuation.section.parens.end",
-
-				"meta.brackets",
-				"punctuation.section.brackets.begin",  //[ and ]
-				"punctuation.section.brackets.end",
-
-				"meta.generic",
-				"punctuation.definition.generic.begin", // < and >
-				"punctuation.definition.generic.end",
-	
-				"meta.tag",         //HTML and XML tags
-				"meta.paragraph",    //标记语言的段落 markup 
+				"source.groovy.embedded.source",
+				"punctuation.definition.variable",
+				"source.powershell",
+				"string.quoted.interpolated.vala constant.character.escape.vala",
+				"source.apacheconf",
+				"source.objc",
+				"source.crystal",
+				"string.quoted.double.kotlin entity.string.template.element.kotlin",
+				"entity.name.package.kotlin",
+				"meta.template.expression.kotlin",
+				"parameter.variable.function",
+				"variable.other.constant.elixir",
+				"source.elixir.embedded.source",
+				"source.sql.embedded",
+				"punctuation.definition.placeholder",
+				"source.swift",
+				"source.julia",
+				"source.shell",
+				"variable.other.normal punctuation.definition.variable.shell",
+				"source.reason variable.language",
+				"source.reason variable.language string.other.link",
+				"source.elm meta.value",
+				"source.elm meta.declaration.module",
+				"meta.embedded.block variable punctuation.definition.variable.php",
+				"string.quoted.double.class.other",
+				"source.toml keyword",
+				"support.type.nim",
+				"source.tf meta.template.expression",
+				"source.scala entity.name.import",
+				"markup.code",
+				"markup.fenced_code.block"
 			],
 			"settings": {
-				"foreground": "",       
-				"fontStyle": "",
+				"foreground": "#dc9935"
 			}
-		},	
+		},
 		{
+			"name": "ANNOTATION",
 			"scope": [
-				"meta.function", 
-				"meta.function-call",
+				"support.variable.property",
+				"constant.other.symbol.hashkey.ruby",
+				"constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.id punctuation.definition.entity",
+				"entity.name.type.annotation.kotlin",
+				"support.type.primitive",
+				"meta.type.parameters entity.name.type",
+				"meta.type.annotation entity.name.type",
+				"punctuation.definition.typeparameters",
+				"source.python support.type.python",
+				"comment.block.documentation.phpdoc.php keyword.other.type.php",
+				"storage.type.php",
+				"keyword.type",
+				"storage.type.cs",
+				"storage.type.c",
+				"storage.type.objc",
+				"punctuation.definition.storage.type.objc",
+				"markup punctuation.definition",
+				"storage.type.powershell",
+				"comment.block.documentation entity.name.type",
+				"source.java storage.type",
+				"storage.type.primitive",
+				"source.groovy storage.type",
+				"storage.type.r",
+				"source.haskell storage.type",
+				"punctuation.separator.clause-head-body",
+				"source.go storage.type",
+				"storage.type.core.rust",
+				"storage.class.std.rust",
+				"storage.modifier.lifetime.rust",
+				"entity.name.lifetime.rust",
+				"support.type.vb",
+				"support.type.julia",
+				"constant.other.reference",
+				"source.graphql support.type",
+				"source.reason support.type string",
+				"source.elm storage.type",
+				"storage.type.user-defined",
+				"storage.type.built-in",
+				"support.type.builtin",
+				"source.swift support.type",
+				"support.class.crystal",
+				"storage.type.integral",
+				"source.cpp storage.type.cpp",
+				"source.vala storage.type",
+				"source.hlsl storage.type.basic",
+				"source.hlsl support.type.other",
+				"source.apex storage.type",
+				"source.nim storage.type",
+				"support.class.builtin",
+				"source.tf meta.keyword.string",
+				"source.tf meta.keyword.number",
+				"source.scala entity.name.class",
+				"markup.raw.monospace",
+				"markup.mark",
+				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#a0008b",       
-				"fontStyle": "",
+				"foreground": "#b04d28"
 			}
 		},
 		{
+			"name": "CONSTANT",
 			"scope": [
-				"meta.function.parameters",
-				"meta.function.return-type",
+				"constant",
+				"variable.other.constant",
+				"support.constant",
+				"punctuation.definition.entity",
+				"constant.character.entity",
+				"support.variable.magic",
+				"markup.quote",
+				"entity.name.type.type-parameter.cs",
+				"punctuation.bracket.angle",
+				"entity.name.function.preprocessor.c",
+				"storage.type.scala",
+				"entity.helper.apacheconf",
+				"variable.language.crystal",
+				"punctuation.definition.constant",
+				"support.constant punctuation.definition.variable",
+				"constant.character.math",
+				"support.class.math",
+				"source.graphql constant.character",
+				"source.reason constant.language.list",
+				"source.cpp variable.other.enummember",
+				"support.variable.class.hideshow",
+				"entity.other.attribute-name.class",
+				"meta.attribute.id entity.other.attribute-name",
+				"text.html entity.other.attribute-name",
+				"meta.tag.attributes entity.other.attribute-name",
+				"text.xml entity.other.attribute-name",
+				"source.cs entity.other.attribute-name",
+				"constant.character.format.placeholder",
+				"constant.other.placeholder",
+				"source.vue entity.other.attribute-name",
+				"entity.other.attribute-name.mjml",
+				"source.vue meta.directive punctuation.separator.key-value",
+				"meta.definition.attribute-entry punctuation.separator"
 			],
 			"settings": {
-				"foreground": "#000000",       
-				"fontStyle": "",
+				"foreground": "#a88c00"
 			}
 		},
-
-		//  6、函数 变量 参数 variable
 		{
-			"scope": [		
-				"variable.other",       //其它变量，如 $some_variables。
-				"variable.other.readwrite",     //let、var声明的变量的颜色
-
-				"punctuation.definition.variable",   //the $ in PHP and Shell.
-				"variable.other.constant",      //const声明的不可变变量的颜色
-				"variable.language",    //语言保留变量，如 this、super、self 等。this、super等
-
-				"variable.parameter",  //函数参数
-					
-				"variable.other.member",      //类或其他数据结构的字段，属性，成员
-				"variable.function",           //函数和方法名称的作用域，但仅限于调用时	
-				"variable.annotation",              //作为数值一部分的标识符中的最终标签
-				"punctuation.definition.annotation"
-			],
-			"settings": {
-				"foreground": "#000000",      //函数参数
-				"fontStyle": "italic",
-			}
-		},
-			
-		// 7、constant 各种形式的常数
-		{
-			"scope":[
-				"constant.numeric",            //数字   e.g. 42, 1.3f, 0x4AB1U.
-				"constant.numeric.integer",
-				"constant.numeric.integer.binary",
-				"constant.numeric.integer.octal",
-				"constant.numeric.integer.decimal",
-				"constant.numeric.integer.hexadecimal",
-				"constant.numeric.integer.other",
-				"constant.numeric.float",
-				"constant.numeric.float.binary",
-				"constant.numeric.float.octal",
-				"constant.numeric.float.decimal",
-				"constant.numeric.float.hexadecimal",
-				"constant.numeric.float.other",
-				"constant.numeric.complex",
-				"constant.numeric.complex.real",
-				"constant.numeric.complex.imaginary",
-
-				"constant.languag",          //true/false/null
-
-				"constant.character.escape",   //转义字符如\n和\x20    //匹配字符，e.g. &lt;, \e, \031.
-				
-				"constant.other.placeholder",        //格式化占位符 %s
-				"constant.other",                   //其他常量，如css中的颜色
-			],
-			"settings": {
-				"foreground": "#df1010",   //数字
-				"fontStyle": "",
-			}
-		},
-	
-		//8 、字符串
-		{
+			"name": "TAG",
 			"scope": [
-				"string.quoted",  //带引号的字符串
-				"string.quoted.single",  //单引号字符串，如 'foo'。
-				"string.quoted.double",  //双引号字符串，如 "foo"。
-				"string.quoted.triple",  //三引号字符串，如 """Python"""。
-				"string.quoted.other",   // 其它字符串，如 $'shell'、%s{...}。
-	
-				"meta.string",
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end",
-
-				"string.quoted.unquoted",    //如未加引号 here-docs 和 here-strings。
-				"string.quoted.regexp",       //正则表达式。
-
-				"meta.interpolated",  //需要被计算的字符串，如 反引号date反引号、$(pwd)。
-				"punctuation.section.interpolation.begin",
-				"punctuation.section.interpolation.end",
-				
-				"source.language-suffix.embedded",
-	
+				"variable.language",
+				"variable.parameter.function.language.special",
+				"punctuation.definition.italic",
+				"punctuation.definition.bold",
+				"entity.name.tag",
+				"variable.language punctuation.definition.variable",
+				"keyword.control.clojure",
+				"support.type.exception.python",
+				"keyword.other.this.cs",
+				"keyword.other.base.cs",
+				"keyword.other.var.cs",
+				"storage.modifier.super",
+				"source.go keyword",
+				"keyword.function.go",
+				"meta.separator",
+				"keyword.other.fn.rust",
+				"storage.modifier.static.rust",
+				"source.r meta.function.r keyword.control.r",
+				"storage.type.def",
+				"meta.class.identifier storage.modifier",
+				"source.scala keyword.declaration",
+				"storage.type",
+				"comment.block.documentation punctuation.definition.block.tag",
+				"comment.block.documentation punctuation.definition.inline.tag",
+				"entity.tag.apacheconf",
+				"keyword.other.julia",
+				"source.julia storage.modifier",
+				"constant.language.empty-list.haskell",
+				"meta.function.powershell storage.type.powershell",
+				"keyword.control.fun",
+				"punctuation.terminator.function",
+				"keyword.other.rust",
+				"keyword.other.declaration-specifier.swift",
+				"keyword.control.class",
+				"keyword.control.def",
+				"source.ocaml keyword markup.underline",
+				"source.ocaml storage.type markup.underline",
+				"binding.fsharp keyword",
+				"function.anonymous keyword",
+				"function.anonymous keyword.symbol.fsharp",
+				"meta.embedded.block variable.language punctuation.definition.variable.php",
+				"keyword.declaration.dart",
+				"source.wsd keyword.other.class",
+				"source.wsd keyword.other.linebegin",
+				"keyword.other.skinparam.keyword",
+				"keyword.other.nim",
+				"markup.deleted.diff",
+				"source.tf support.class.variable",
+				"meta.function.lua keyword.control.lua",
+				"markup.block entity.name.tag",
+				"markup.meta.attribute-list",
+				"source.zig keyword.default",
+				"source.zig keyword.structure"
 			],
 			"settings": {
-				"foreground": "#a31515",   //字符串
-				"fontStyle": "",
+				"foreground": "#ba860c"
 			}
 		},
-		
-		// 9、comment 注释
 		{
+			"name": "STRING",
 			"scope": [
-					    "comment.line",	
-						"comment.block",   //block：多行注释
-						"comment.block.documentation",  //多行注释    / … / and <!-- … -->
-
-						"punctuation.definition.comment",
-						"meta.toc-list",
-					],
-			"settings": {
-				"foreground": "#005500b7",         //注释
-				"fontStyle": "",
-				//斜体 "fontStyle": "italic",
-				//斜体下划线 "fontStyle": "italic underline",
-				//斜体粗体下划线 "fontStyle": "italic bold underline",
-			}
-		},
-
-		//10、 punctuation  括号之类
-		{
-			"scope": [    
-			//	"punctuation.separator",    //,和:
-
-			//	"punctuation.terminator",   //;和其他语句终止符     分号（代码终止符） 
-			//	"punctuation.separator.continuation",    //行继续字符
-			//	"punctuation.accessor",           //.
-
+				"string",
+				"punctuation.definition.string",
+				"source.css support.constant",
+				"entity.name.import.go",
+				"markup.raw.texttt",
+				"markup.inserted.diff",
+				"source.scala punctuation.definition.character",
+				"constant.character.literal.scala",
+				"source.tf entity.name"
 			],
 			"settings": {
-				"foreground": "",   // 符号 ， （） 等  颜色
-				"fontStyle": "",
+				"foreground": "#06bbe8"
 			}
 		},
-	
-		//11 invalid：非法内容
 		{
+			"name": "STRINGINTERPOLATED",
 			"scope": [
-				"invalid.illegal",     //非法，如 HTML 中的 & 等（非实体 / tag 中的部分）。  
-				"invalid.deprecated",  //过时内容，如使用了不推荐使用的 API 函数。
+				"string.template",
+				"punctuation.definition.string.template",
+				"string.interpolated.python string.quoted.single.python",
+				"string.quoted.double.heredoc",
+				"string.quoted.interpolated.vala",
+				"string.quoted.interpolated.vala punctuation.definition.string",
+				"string.regexp.apacheconf",
+				"markup.inline.raw.string",
+				"markup.inline.raw punctuation.definition.raw",
+				"string.quoted.double.interpolated.crystal",
+				"string.quoted.double.interpolated.crystal punctuation.definition.string",
+				"text.tex markup.raw"
 			],
 			"settings": {
-				"foreground": "#e93636"
+				"foreground": "#025a5d"
 			}
 		},
-
-	
-       // 12、markup 标记作用域用于内容，而不是代码(包括Markdown和Textile等语法)
-	   {
-		"scope": [
-			"markup.heading",   		  //章节头。（可选）为接下去的元素提供标题级别，如 HTML 中的
-			"markup.list.numbered",   	//	有序列表项。
-			"markup.list.unnumbered",	//	无序列表项。
-
-			"markup.bold",       		 //加粗文本。
-			"markup.italic",      //斜体文本。
-			"markup.underline",    		 //带下划线
-
-			"markup.inserted",   //插入
-			"markup.deleted",    //删除
-
-			"markup.underline.link",	 //  用于超链接，为了方便起见，它是从 markup.underline 派生的，这的话即使没有专门针对 markup.underline.link 的主题规则，也能继承下划线样式。
-			"markup.quote",      //逐字文本，如代码项。通常对于 markup.raw 是禁用拼写检查的。
-			
-			"markup.raw.inline",  //逐字记录的文本
-			"markup.raw.block",
-
-			"markup.other",      //其它标记结构。
-		],
-		"settings": {
-			"foreground": "",
-			"fontStyle": "",
-		}
-		},
 		{
-			"scope": "markup.underline",
+			"name": "NUMBER",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"punctuation.separator.decimal.period.php",
+				"keyword.operator.null-conditional.cs",
+				"punctuation.separator.question-mark.cs",
+				"constant.integer.apacheconf",
+				"keyword.operator.nullable-type",
+				"constant.language punctuation.definition.variable",
+				"constant.others.fsharp",
+				"keyword.other.unit",
+				"string.quoted.double.skinparam.value",
+				"source.toml constant",
+				"source.zig keyword.constant.bool",
+				"source.zig keyword.constant.default"
+			],
 			"settings": {
-				"fontStyle": "underline"
+				"foreground": "#05c0ee"
 			}
 		},
 		{
-			"scope": "markup.bold",
+			"name": "FUNCTION",
+			"scope": [
+				"variable.function",
+				"support.type.property-name",
+				"entity.name.function",
+				"string.other.link",
+				"markup.link",
+				"support.type.vendored",
+				"support.other.variable",
+				"meta.function-call.generic.python",
+				"meta.method-call.groovy meta.method.groovy",
+				"meta.class.body.groovy meta.method.body.java storage.type.groovy",
+				"punctuation.definition.decorator",
+				"support.function.any-method",
+				"text.tex support.function",
+				"text.tex punctuation.definition.function",
+				"entity.name.section.fsharp entity.name.section.fsharp",
+				"support.variable.class.function",
+				"keyword.control.cucumber.table",
+				"punctuation.decorator",
+				"source.tf support.class"
+			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#000080"
+				"foreground": "#0c5a03"
 			}
 		},
 		{
-			"scope": "markup.heading",
+			"name": "SUPPORT",
+			"scope": [
+				"entity.name",
+				"entity.other",
+				"support.orther.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"support.type",
+				"support.class",
+				"punctuation.definition.parameters",
+				"support.function",
+				"support.function.construct",
+				"markup.changed.git_gutter",
+				"markup.underline.link",
+				"markup.underline.link.image",
+				"markup.underline",
+				"meta.symbol.namespace.clojure",
+				"entity.mime-type.apacheconf",
+				"keyword.operator.function.infix",
+				"entity.name.function.infix",
+				"entity.name.function.call.kotlin",
+				"text.tex support.function.verb",
+				"text.tex support.function.texttt",
+				"source.reason constant.language.unit",
+				"source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
+				"source.reason entity.other.attribute-name constant.language constant.numeric",
+				"constant.language.unit.fsharp",
+				"source.wsd support.class.preprocessings",
+				"keyword.language.gherkin.feature.scenario",
+				"source.nim keyword.other.common.function",
+				"entity.name.scope-resolution.function.call"
+			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#800000"
+				"foreground": "#04ad23"
 			}
 		},
 		{
-			"scope": "markup.italic",
+			"name": "MISC",
+			"scope": [
+				"source.js constant.other.object.key.js string.unquoted.label.js",
+				"source.js punctuation.section.embedded",
+				"punctuation.definition.template-expression",
+				"support.class",
+				"storage.type.string.python",
+				"string.interpolated.pug",
+				"support.constant.handlebars",
+				"source.clojure punctuation.section.set",
+				"source.clojure punctuation.section.metadata",
+				"entity.global.clojure",
+				"source.python meta.function-call.python support.type.python",
+				"entity.other.inherited-class.python",
+				"punctuation.definition.interpolation",
+				"punctuation.section.embedded.begin.ruby",
+				"punctuation.section.embedded.end.ruby source.ruby",
+				"support.constant.math",
+				"entity.namespace.r",
+				"meta.method-call.groovy storage.type.groovy",
+				"source.scala entity.name.class.declaration",
+				"constant.character.escape",
+				"support.function.macro.julia",
+				"string.replacement.apacheconf",
+				"storage.modifier.using.vala",
+				"constant.other.haskell",
+				"source.objc entity.name.tag",
+				"string.quoted.other.literal.upper.crystal punctuation.definition.string",
+				"meta.embedded.line.crystal punctuation.section.embedded",
+				"meta.embedded.line.crystal punctuation.section.embedded source.crystal",
+				"punctuation.section.embedded",
+				"punctuation.section.tag",
+				"punctuation.section.embedded source.swift",
+				"variable.other.bracket punctuation.definition.variable",
+				"string.interpolated.dollar punctuation.definition.string",
+				"constant.character.escape punctuation.definition.keyword",
+				"source.ocaml entity.name.class constant.numeric",
+				"source.reason entity.name.class",
+				"keyword.format.specifier.fsharp",
+				"support.module.elm",
+				"meta.embedded.block.php punctuation.definition.variable.php",
+				"source.vala storage.type",
+				"support.variable.class.group",
+				"entity.name.type.class",
+				"source.tf meta.keyword.list",
+				"source.tf meta.keyword.map",
+				"entity.name.class.lua",
+				"markup.substitution",
+				"source.cs entity.name.type"
+			],
+			"settings": {
+				"foreground": "#0094f0"
+			}
+		},
+		{
+			"name": "INVALID",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#ff530f"
+			}
+		},
+		{
+			"name": "ITALIC",
+			"scope": [
+				"comment",
+				"storage.modifier",
+				"punctuation.definition.comment",
+				"entity.other",
+				"variable.language",
+				"support.type.vendored",
+				"support.constant.vendored",
+				"markup.quote",
+				"markup.italic",
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js",
+				"keyword.control.clojure",
+				"source.clojure meta.symbol.dynamic",
+				"keyword.other.this.cs",
+				"keyword.other.base.cs",
+				"variable.other.member.c",
+				"support.type.core.rust",
+				"variable.other.object.property",
+				"variable.other.property",
+				"source.r meta.function.r keyword.control.r",
+				"comment.line.roxygen.r keyword",
+				"comment.line.roxygen.r variable.parameter.r",
+				"keyword.control.inheritance.coffee",
+				"comment.block.documentation.phpdoc.php keyword",
+				"keyword.other.array.phpdoc.php",
+				"storage.type.modifier",
+				"comment.block.javadoc.java keyword",
+				"comment.block.javadoc.java variable.parameter.java",
+				"keyword.operator.documentation.powershell",
+				"storage.type.scala",
+				"variable.parameter.function.language.special",
+				"comment.block.documentation.scala keyword",
+				"comment.block.documentation.scala variable.parameter",
+				"support.function.builtin.go",
+				"constant.other.symbol.hashkey.ruby",
+				"constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+				"constant.other.symbol.ruby",
+				"source.vala storage.type.generic",
+				"constant.other.table-name",
+				"constant.other.placeholder",
+				"variable.other.field",
+				"entity.alias.import.go",
+				"source.swift keyword.other.declaration-specifier",
+				"support.variable.swift",
+				"keyword.other.capture-specifier",
+				"text.tex support.function.emph",
+				"constant.other.math",
+				"support.function.textit",
+				"entity.name.footnote",
+				"entity.name.function.directive.graphql",
+				"source.graphql support.type.enum",
+				"source.ocaml entity.name.filename",
+				"source.reason entity.name.filename",
+				"abstract.definition.fsharp keyword",
+				"abstract.definition.fsharp entity",
+				"function.anonymous keyword",
+				"entity.name.record.field.accessor.elm",
+				"support.type.primitive",
+				"support.type.builtin",
+				"storage.type.built-in",
+				"storage.type.primitive",
+				"source.python support.type.python",
+				"storage.type.core.rust",
+				"source.swift support.type",
+				"source.go storage.type",
+				"storage.type.php",
+				"storage.type.function.kotlin",
+				"entity.name.type.kotlin",
+				"support.type.julia",
+				"variable.other.member",
+				"keyword.other.import",
+				"keyword.package",
+				"keyword.import",
+				"source.wsd keyword.control.diagram",
+				"keyword.language.gherkin.feature.step",
+				"source.hlsl storage.type.basic",
+				"source.apex keyword.type",
+				"sharing.modifier",
+				"source.nim storage.type.concrete",
+				"meta.preprocessor.pragma.nim",
+				"storage.type.integral",
+				"entity.name.scope-resolution.function.call",
+				"support.class.builtin",
+				"comment.block.documentation storage.type.class",
+				"source.tf meta.keyword.string",
+				"source.tf meta.keyword.number",
+				"source.scala entity.name.class",
+				"meta.import keyword.control",
+				"keyword.control.export",
+				"source.vue meta.directive punctuation.separator.key-value",
+				"keyword.local.lua",
+				"markup.mark.constrained markup.mark",
+				"markup.block.open",
+				"entity.name.type.primitive",
+				"entity.name.type.numeric",
+				"source.zig keyword.type",
+				"source.zig keyword.storage",
+				"source.zig keyword.structure",
+				"source.cs keyword.type"
+			],
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "markup.inserted",
-			"settings": {
-				"foreground": "#098658"
-			}
-		},
-		{
-			"scope": "markup.deleted",
-			"settings": {
-				"foreground": "#a31515"
-			}
-		},
-		{
-			"scope": "markup.changed",
-			"settings": {
-				"foreground": "#0451a5"
-			}
-		},
-		{
-			"scope": "markup.inline.raw",
-			"settings": {
-				"foreground": "#800000"
-			}
-		},
-		{
-			"name": "brackets of XML/HTML tags",
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"foreground": "#800000"
-			}
-		},
-	
-	
-	
-		// 13、source 应用于整个源代码文件
-		{
+			"name": "BOLD",
 			"scope": [
-				"source",
+				"keyword",
+				"keyword.control",
+				"keyword.operator",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"storage.type.function.arrow",
+				"constant.other.color",
+				"punctuation.accessor",
+				"entity.name.section",
+				"markdown.heading",
+				"markup.inline.raw punctuation.definition.raw",
+				"markup.heading",
+				"storage.type.function.pug",
+				"storage.type.function.python",
+				"storage.type.annotation",
+				"punctuation.bracket.angle",
+				"keyword.other.new",
+				"storage.type.generic.wildcard",
+				"source.go keyword.operator",
+				"constant.other.symbol.ruby punctuation.definition.constant.ruby",
+				"variable.parameter",
+				"support.function.builtin.rust",
+				"storage.type.function.coffee",
+				"entity.name.variable.parameter",
+				"punctuation.separator.hash.cs",
+				"constant.other.symbol.ruby punctuation.definition.constant.ruby",
+				"constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+				"meta.function.parameters variable.other",
+				"entity.name.type.annotation.kotlin",
+				"storage.type.objc",
+				"parameter.variable.function",
+				"markup punctuation.definition",
+				"punctuation.section.directive",
+				"punctuation.definition.preprocessor",
+				"source.ruby punctuation.definition.variable",
+				"support.function.textbf",
+				"source.graphql support.type.builtin",
+				"source.ocaml variable.interpolation string",
+				"entity.name.function.definition.special.constructor",
+				"entity.name.function.definition.special.member.destructor.",
+				"meta.function.parameters variable punctuation.definition.variable.php",
+				"source.wsd keyword.other.activity",
+				"keyword.control.class.ruby",
+				"keyword.control.def.ruby",
+				"keyword.function.go",
+				"keyword.other.fn.rust",
+				"markup.other.anchor",
+				"markup.list.bullet",
+				"markup.list punctuation.definition",
+				"keyword.control.default",
+				"punctuation.section",
+				"punctuation.separator",
+				"punctuation.terminator",
+				"markup.bold.markdown",
+				"source.zig storage.type.function"
 			],
 			"settings": {
-				"foreground": "",
-				"fontStyle": "",
+				"fontStyle": "bold"
 			}
 		},
-
-		//14、text
 		{
-			"name":"text",
+			"name": "BOLD-ITALIC",
 			"scope": [
-				"text.html",     //html
-				"text.xml",      //xml
+				"markup.quote markup.bold",
+				"text.html punctuation.section.embedded",
+				"variable.other.c",
+				"storage.modifier.lifetime.rust",
+				"entity.name.lifetime.rust",
+				"source.rust meta.attribute.rust",
+				"meta.attribute.id entity.other.attribute-name",
+				"source.ocaml punctuation.definition.tag emphasis",
+				"source.tf entity.name",
+				"markup.quote punctuation.definition",
+				"markup.fenced_code punctuation.definition",
+				"fenced_code.block.language"
 			],
 			"settings": {
-				"foreground": "",
-				"fontStyle": "",
+				"fontStyle": "bold italic"
 			}
 		},
+		{
+			"name": "NORMAL",
+			"scope": [
+				"keyword.begin.tag.ejs",
+				"source.python meta.function.decorator.python support.type.python",
+				"source.cs keyword.other",
+				"keyword.other.var.cs",
+				"source.go keyword",
+				"storage.modifier.static.rust",
+				"variable.parameter.r",
+				"variable.parameter.handlebars",
+				"storage.modifier.import",
+				"storage.modifier.package",
+				"meta.class.identifier storage.modifier",
+				"keyword.operator.other.powershell",
+				"source.css variable.parameter",
+				"string.interpolated variable.parameter",
+				"source.apacheconf keyword",
+				"keyword.other.julia",
+				"storage.modifier.using.vala",
+				"source.objc keyword.other.property.attribute",
+				"source.sql keyword.other",
+				"keyword.other.using.vala",
+				"keyword.operator.function.infix",
+				"keyword.control.directive",
+				"keyword.other.rust",
+				"keyword.other.declaration-specifier.swift",
+				"entity.name.function.swift",
+				"keyword.control.class",
+				"keyword.control.def",
+				"punctuation.definition.variable",
+				"entity.name.section.latex",
+				"source.ocaml keyword markup.underline",
+				"source.ocaml constant.language constant.numeric entity.other.attribute-name.id.css",
+				"source.reason entity.other.attribute-name constant.language constant.numeric",
+				"keyword.format.specifier.fsharp",
+				"entity.name.section.fsharp",
+				"binding.fsharp keyword",
+				"binding.fsharp keyword.symbol",
+				"record.fsharp keyword",
+				"keyword.symbol.fsharp",
+				"entity.name.section.fsharp keyword",
+				"namespace.open.fsharp keyword",
+				"namespace.open.fsharp entity",
+				"storage.type",
+				"source.cpp keyword.other",
+				"source.c keyword.other",
+				"keyword.other.unit",
+				"storage.modifier.array.bracket",
+				"meta.import.haskell keyword",
+				"keyword.declaration.dart",
+				"source.wsd keyword.other",
+				"keyword.other.skinparam",
+				"source.css keyword.control",
+				"source.css keyword.operator",
+				"keyword.language.gherkin.feature.scenario",
+				"keyword.control.cucumber.table",
+				"source.toml entity.other.attribute-name",
+				"source.toml keyword",
+				"keyword.other.nim",
+				"source.nim keyword.other.common.function",
+				"source.nim keyword.other",
+				"source.scala keyword.declaration",
+				"source.scala entity.name.class.declaration",
+				"keyword.control.lua",
+				"source.css punctuation.section",
+				"punctuation.section.embedded",
+				"source.c punctuation.section",
+				"source.cpp punctuation.section",
+				"source.java punctuation.section",
+				"source.php punctuation.section",
+				"source.powershell punctuation.section",
+				"source.r punctuation.section",
+				"source.ruby punctuation.section",
+				"source.swift punctuation.section",
+				"source.objc punctuation.section",
+				"source.zig keyword.constant.bool",
+				"source.zig keyword.default",
+				"source.zig keyword.statement",
+				"source.zig keyword.constant.default"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "STRIKETHROUGH",
+			"scope": [
+				"markup.strikethrough"
+			],
+			"settings": {
+				"fontStyle": "strikethrough"
+			}
+		}
 	]
 }
